@@ -1,0 +1,14 @@
+.{
+    .name = "uws",
+    .version = "20.45.0",
+    .dependencies = .{
+        .usockets = .{
+            .url = "https://github.com/lithdew/usockets-zig/archive/63cb4f74b99aa74be3f1ddee805a54e9d7dad756.tar.gz",
+            .hash = "1220654064bc4cf3a42f3df69ba719b8d9f6de4ad5c87838fca36a823a3fd5a75c08",
+        },
+        .libz = .{
+            .url = "https://github.com/andrewrk/libz/archive/8bf2a1c61b87773131bee2086737b5f02b7c0888.tar.gz",
+            .hash = "12209e851f7e2c6ba2f01de3e11b1771f03e49666065320abd8414aac152bfa75fae",
+        },
+    },
+}
